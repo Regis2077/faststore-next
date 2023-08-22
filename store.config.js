@@ -1,9 +1,9 @@
 module.exports = {
   seo: {
-    title: 'NextJSStore',
-    description: 'Fast Demo Store',
+    title: 'Faststore Moda',
+    description: 'Moda store',
     titleTemplate: '%s | FastStore',
-    author: 'Store Framework',
+    author: 'Gabriel Regis',
   },
 
   // Theming
@@ -23,12 +23,12 @@ module.exports = {
   // Default session
   session: {
     currency: {
-      code: 'USD',
-      symbol: '$',
+      code: 'BRL',
+      symbol: 'R$',
     },
-    locale: 'en-US',
+    locale: 'pt-BR',
     channel: '{"salesChannel":"1","regionId":""}',
-    country: 'USA',
+    country: 'BRA',
     postalCode: null,
     person: null,
   },
