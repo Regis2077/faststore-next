@@ -1,0 +1,31 @@
+.Topbar{
+  display: flex;
+  background: #ECE3D7;
+  width: 100%;
+  justify-content: center;
+  padding: 12px 0;
+
+  &-link{
+    text-decoration-line: underline;
+  }
+
+
+  &-link, &-mainText{
+    color: #222;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  &-mainText__info{
+    color: rgba(34, 34, 34, 0.60);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+}

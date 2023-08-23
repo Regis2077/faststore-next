@@ -37,7 +37,7 @@
     "@types/react": "^18.0.14",
     "@vtex/client-cms": "^0.2.12",
     "@vtex/tsconfig": "0.6.0",
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.15",
     "css-loader": "^6.7.1",
     "eslint": "^7.22.0",
     "eslint-config-next": "12.1.5",
@@ -48,7 +48,7 @@
     "next": "^12.3.1",
     "next-seo": "^5.4.0",
     "nextjs-progressbar": "^0.0.14",
-    "postcss": "^8.4.4",
+    "postcss": "^8.4.28",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^8.32.5",
@@ -93,7 +93,8 @@
     "stylelint-config-standard": "^24.0.0",
     "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.0.1"
+    "stylelint-scss": "^4.0.1",
+    "tailwindcss": "^3.3.3"
   },
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
