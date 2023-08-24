@@ -19,7 +19,6 @@ const ButtonSignIn = () => {
       variant="tertiary"
     >
       <Icon name="User" width={18} height={18} weight="bold" />
-      <span>{person?.id ? 'My Account' : 'Sign In'}</span>
     </ButtonLink>
   )
 }

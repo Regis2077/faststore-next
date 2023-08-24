@@ -55,6 +55,7 @@ function Navbar() {
               </Link>
             </>
           )}
+          <NavLinks classes="hidden-mobile" />
           <SearchInput />
           <div
             data-fs-navbar-buttons
@@ -85,8 +86,6 @@ function Navbar() {
           </div>
         </div>
       </section>
-      <NavLinks classes="hidden-mobile" />
-
       {displayNavbar && <NavbarSlider />}
     </header>
   )
