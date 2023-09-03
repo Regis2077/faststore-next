@@ -11,14 +11,15 @@ interface topbarProps{
 const Topbar = ({register, registerLink, text, info}: topbarProps) => {
   return (
       <div className={styles['Topbar']}>
-        <Link
-          href={registerLink}
-        >
-          <a className={styles['Topbar-link']}>
-            {register}
-          </a>
-        </Link>
+
         <p className={styles['Topbar-mainText']}>
+          <Link
+            href={registerLink}
+          >
+            <a className={styles['Topbar-link']}>
+              {register}
+            </a>
+          </Link>
           &nbsp;{text}
           <span className={styles['Topbar-mainText__info']}>&nbsp;*{info}</span>
         </p>
